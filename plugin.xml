@@ -16,7 +16,7 @@
     </engines>
 
     <js-module src="www/roundtrip.js" name="RoundTrip">
-        <clobbers target="window.plugins.RoundTrip" />
+        <clobbers target="cordova.plugin.RoundTrip" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
